@@ -1,0 +1,268 @@
+﻿c el_elfdalian.kmn
+c Version 1.0
+c 
+c A keyboard layout for Elfdalian and Swedish, deriving from the Swedish keyboard layout.
+c Developed for the Globalbility Project by Enabling Languages.
+c 
+c © 2017 Enabling Languages.
+c Released under the MIT license.
+c 
+c Andrew Cunningham    2017-03-29
+c www.github.com/andjc
+
+store(&VERSION) '10.0'
+store(&NAME) 'Elfdalian'
+store(&COPYRIGHT) '© 2018 Globability'
+store(&VISUALKEYBOARD) 'gl_elfdalian.kvks'
+store(&TARGETS) 'any'
+store(&KEYBOARDVERSION) '1.0'
+store(&BITMAP) 'gl_elfdalian.ico'
+store(&LAYOUTFILE) 'gl_elfdalian.keyman-touch-layout'
+
+begin Unicode > use(main)
+
+c Elfdalian alphabet: Aa Ąą Bb Cc Dd Đð Ee Ęę Ff Gg Hh Ii Įį Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Ųų Vv Ww Xx Yy Y̨y̨ Zz Åå Ą̊ą̊ Ää Öö
+
+c === ALPHABETIC STORES ===
+store(alphaKey) [K_A] [SHIFT K_A]\
+		[K_B] [SHIFT K_B] \
+		[K_C] [SHIFT K_C] \
+		[K_D] [SHIFT K_D] \
+		[K_E] [SHIFT K_E] \
+		[K_F] [SHIFT K_F] \
+		[K_G] [SHIFT K_G] \
+		[K_H] [SHIFT K_H] \
+		[K_I] [SHIFT K_I] \
+		[K_J] [SHIFT K_J] \
+		[K_K] [SHIFT K_K] \
+		[K_L] [SHIFT K_L] \
+		[K_M] [SHIFT K_M] \
+		[K_N] [SHIFT K_N] \
+		[K_O] [SHIFT K_O] \
+		[K_P] [SHIFT K_P] \
+		[K_Q] [SHIFT K_Q] \
+		[K_R] [SHIFT K_R] \
+		[K_S] [SHIFT K_S] \
+		[K_T] [SHIFT K_T] \
+		[K_U] [SHIFT K_U] \
+		[K_V] [SHIFT K_V] \
+		[K_W] [SHIFT K_W] \
+		[K_X] [SHIFT K_X] \
+		[K_Y] [SHIFT K_Y] \
+		[K_Z] [SHIFT K_Z] \
+		[K_COLON] [SHIFT K_COLON] \
+		[K_LBRKT] [SHIFT K_LBRKT] \
+		[K_QUOTE] [SHIFT K_QUOTE]
+
+store(extAlphaKey) [RALT K_A] [SHIFT RALT K_A] \
+				[RALT K_E] [SHIFT RALT K_E] \
+				[RALT K_I] [SHIFT RALT K_I] \
+				[RALT K_U] [SHIFT RALT K_U] \
+				[RALT K_D] [SHIFT RALT K_D] \
+				[RALT K_O] [SHIFT RALT K_O] \
+				[RALT K_S] [SHIFT RALT K_S] \
+
+store(extAlphaKeyOSX) [LALT K_A] [SHIFT LALT K_A] \
+				[LALT K_E] [SHIFT LALT K_E] \
+				[LALT K_I] [SHIFT LALT K_I] \
+				[LALT K_U] [SHIFT LALT K_U] \
+				[LALT K_D] [SHIFT LALT K_D] \
+				[LALT K_O] [SHIFT LALT K_O] \
+				[LALT K_S] [SHIFT LALT K_S]
+
+store(alphaChar) U+0061 U+0041 \
+		 U+0062 U+0042 \
+		 U+0063 U+0043 \
+		 U+0064 U+0044 \
+		 U+0065 U+0045 \
+		 U+0066 U+0046 \
+		 U+0067 U+0047 \
+		 U+0068 U+0048 \
+		 U+0069 U+0049 \
+		 U+006a U+004a \
+		 U+006b U+004b \
+		 U+006c U+004c \
+		 U+006d U+004d \
+		 U+006e U+004e \
+		 U+006f U+004f \
+		 U+0070 U+0050 \
+		 U+0071 U+0051 \
+		 U+0072 U+0052 \
+		 U+0073 U+0053 \
+		 U+0074 U+0054 \
+		 U+0075 U+0055 \
+		 U+0076 U+0056 \
+		 U+0077 U+0057 \
+		 U+0078 U+0058 \
+		 U+0079 U+0059 \
+		 U+007a U+005a \
+		 U+00f6 U+00d6 \
+		 U+00e5 U+00c5 \
+		 U+00e4 U+00c4
+
+store(extAlphaChar) U+0105 U+0104 \
+	 			U+0119 U+0118 \
+	 			U+012F U+012E \
+	 			U+0173 U+0172 \
+	 			U+00F0 U+0110 \
+	 			U+01EB U+01EA \
+	 			U+015F U+015F
+
+c === DIGIT and PUNCTUATION stores ===
+store(spaceKey) [K_SPACE] [SHIFT K_SPACE] [LCTRL K_SPACE] [rCTRL K_SPACE]
+store(space) U+0020
+store(digitKey) [K_0] [K_1] [K_2] [K_3] [K_4] [K_5] [K_6] [K_7] [K_8] [K_9]
+store(digitChar) U+0030 U+0031 U+0032 U+0033 U+0034 U+0035 U+0036 U+0037 U+0038 U+0039
+store(punctuationKeys) [SHIFT K_0] [SHIFT K_1] [SHIFT K_2] [SHIFT K_3] [SHIFT K_4] [SHIFT K_5] [SHIFT K_6] [SHIFT K_7] [SHIFT K_8] [SHIFT K_9] \
+                       [K_HYPHEN] [SHIFT K_HYPHEN] [K_COMMA] [SHIFT K_COMMA] [K_SLASH] [SHIFT K_SLASH] [K_PERIOD] [SHIFT K_PERIOD] [K_BKSLASH] \
+                       [SHIFT K_BKSLASH] [K_BKQUOTE] [SHIFT K_BKQUOTE] [K_oE2] [SHIFT K_oE2]
+store(punctuationChars) U+003d U+0021 U+0022 U+0023 U+00a4 U+0025 U+0026 U+002f U+0028 U+0029 \
+                        U+002b U+003f U+002c U+003b U+002d U+005f U+002e U+003a U+0027 \
+                        U+002a U+00a7 U+00bd U+003c U+003e
+store(punctuationAltKeys) [RALT K_0] [RALT K_2] [RALT K_3] [RALT K_4] [RALT K_5] [RALT K_7] \
+                          [RALT K_8] [RALT K_9] [RALT K_HYPHEN] [RALT K_oE2] [RALT K_M]
+store(punctuationAltKeysOSX) [LALT K_0] [LALT K_2] [LALT K_3] [LALT K_4] [LALT K_5] [LALT K_7] \
+                             [LALT K_8] [LALT K_9] [LALT K_HYPHEN] [LALT K_oE2] [LALT K_M]
+
+store(punctuationAltChars) U+007d U+0040 U+00a3 U+0024 U+20ac U+007b U+005b U+005d U+005c U+007c U+00b5
+
+c === DEADKEY stores ===
+store(dkfcore) U+0020 U+0061 U+0041 U+0065 U+0045 U+0069 U+0049 U+006f U+004f U+0075 U+0055			c <space> a A e E i I o O u U
+store(dkf00a8) outs(dkfcore) U+0079	                                                        		c <space> a A e E i I o O u U y
+store(dkf005e) outs(dkfcore)											 	   	   	   	   	   	   	c <space> a A e E i I o O u U
+store(dkf007e) U+0020 U+0061 U+0041 U+006e U+004e U+006f U+004f							  	   	   	c <space> a A n N o O
+store(dkf00b4) outs(dkfcore) U+0079 U+0059									 	   	   	   	   	   	c <space> a A e E i I o O u U y Y
+store(dkf0060) outs(dkfcore)											 	   	   	   	   	   	   	c <space> a A e E i I o O u U
+
+store(dkt00a8) U+00a8 U+00e4 U+00c4 U+00eb U+00cb U+00ef U+00cf U+00f6 U+00d6 U+00fc U+00dc U+00ff		    c
+store(dkt005e) U+005e U+00e2 U+00c2 U+00ea U+00ca U+00ee U+00ce U+00f4 U+00d4 U+00fb U+00db			  	   	c
+store(dkt007e) U+007e U+00e3 U+00c3 U+00f1 U+00d1 U+00f5 U+00d5							  	   	   	   	   	c
+store(dkt00b4) U+00b4 U+00e1 U+00c1 U+00e9 U+00c9 U+00ed U+00cd U+00f3 U+00d3 U+00fa U+00da U+00fd U+00dd	c
+store(dkt0060) U+0060 U+00e0 U+00c0 U+00e8 U+00c8 U+00ec U+00cc U+00f2 U+00d2 U+00f9 U+00d9			  	   	c
+
+c === TOUCH stores ===
+
+store(extAlphaKeyTouch) [T_A_02] [SHIFT T_A_02] \
+						[T_E_02] [SHIFT T_E_02] \
+						[T_I_02] [SHIFT T_I_02] \
+						[T_U_02] [SHIFT T_U_02] \
+						[T_D_02] [SHIFT T_D_02] \
+						[T_O_02] [SHIFT T_O_02] \
+						[T_S_02] [SHIFT T_S_02]
+
+c å Å ö ä Ö Ä
+store(alphaCharsTouch) U+00E5 U+00C5 U+00F6 U+00E4 U+00D6 U+00C4
+store(alphaKeysTouch) [T_ARING] [SHIFT T_ARING] [T_ODIAERESIS] [T_ADIAERESIS] [SHIFT T_ODIAERESIS] [SHIFT T_ADIAERESIS]
+
+c è é ë ê È É Ë Ê
+store(eCharsTouch) U+00E8 U+00E9 U+00EB U+00EA U+00C8 U+00C9 U+00CB U+00CA
+store(eKeysTouch) [T_E_03] [T_E_04] [T_E_05] [T_E_06] [SHIFT T_E_03] [SHIFT T_E_04] [SHIFT T_E_05] [SHIFT T_E_06]
+
+c ÿ Ÿ
+store(yCharsTouch) U+00FF U+0178
+store(yKeysTouch) [T_Y_05] [SHIFT T_Y_05]
+
+c ù ú ü û Ù Ú Ü Û
+store(uCharsTouch) U+00F9 U+00FA U+00FC U+00FB U+00D9 U+00DA U+00DC U+00DB
+store(uKeysTouch) [T_U_03] [T_U_04] [T_U_05] [T_U_06] [SHIFT T_U_03] [SHIFT T_U_04] [SHIFT T_U_05] [SHIFT T_U_06]
+
+c ì í ï î Ì Í Ï Î
+store(iCharsTouch) U+00EC U+00ED U+00EF U+00EE U+00CC U+00CD U+00CF U+00CE
+store(iKeysTouch) [T_I_03] [T_I_04] [T_I_05] [T_I_06] [SHIFT T_I_03] [SHIFT T_I_04] [SHIFT T_I_05] [SHIFT T_I_06]
+
+c ò ó ö ô õ Ò Ó Ö Ô Õ
+store(oCharsTouch) U+00F2 U+00F3 U+00F6 U+00F4 U+00F5 U+00D2 U+00D3 U+00D6 U+00D4 U+00D5
+store(oKeysTouch) [T_O_03] [T_O_04] [T_O_05] [T_O_06] [T_O_07] [SHIFT T_O_03] [SHIFT T_O_04] [SHIFT T_O_05] [SHIFT T_O_06] [SHIFT T_O_07]
+
+c à á ä â ã À Á Ä Â Ã
+store(aCharsTouch) U+00E0 U+00E1 U+00E4 U+00E2 U+00E3 U+00C0 U+00C1 U+00C4 U+00C2 U+00C3
+store(aKeysTouch) [T_A_03] [T_A_04] [T_A_05] [T_A_06] [T_A_07] [SHIFT T_A_03] [SHIFT T_A_04] [SHIFT T_A_05] [SHIFT T_A_06] [SHIFT T_A_07]
+
+c ñ Ñ
+store(nCharsTouch) U+00F1 U+00D1
+store(nKeysTouch) [T_N_02] [SHIFT T_N_02]
+
+c , . ! ? ' " \ : ; }  @   U+00A3  $   U+20AC {  [   ]  \   |
+store(punctCharsTouch) U+002C U+002E U+0021 U+003F U+0027 U+0022 U+005C U+003A U+003B U+007d U+0040 U+00a3 U+0024 U+20ac U+007b U+005b U+005d U+005c U+007c U+00b5
+store(punctKeysTouch) [T_COMMA] [T_PERIOD] [SHIFT T_COMMA] [SHIFT T_PERIOD] [T_QUOTE] [SHIFT T_QUOTE] [T_BKSLASH] [SHIFT T_COLON] [T_COLON] [SHIFT T_PARENTH] [T_AT] [T_POUND] [T_DOLLAR] [T_EURO] [T_PARENTH] [T_SQBRKT] [SHIFT T_SQBRKT] [SHIFT T_PARENTH] [SHIFT T_BAR] [T_BAR]
+
+
+group(main) using keys
+
+c === ALPHABETIC ===
+
++ any(alphaKey) > index(alphaChar,1)
+if(&platform = "touch") + any(alphaKeysTouch) > index(alphaCharsTouch,2)
+
+if(&platform != "touch") + any(extAlphaKey) > index(extAlphaChar,2)
+platform("macosx") + any(extAlphaKeyOSX) > index(extAlphaChar,2)
+platform("touch") + any(extAlphaKeyTouch) > index(extAlphaChar,2)
+
+c Inputing Y̨ (U+0059 U+0328) and y̨ (U+0079 U+0328)
+if(&platform != "touch") + [RALT K_Y] > U+0079 U+0328
+if(&platform != "touch") + [SHIFT RALT K_Y] > U+0059 U+0328
+platform("macosx") + [LALT K_Y] > U+0079 U+0328
+platform("macosx") + [SHIFT LALT K_Y] > U+0059 U+0328
+platform("touch") + [T_Y_02] > U+0079 U+0328
+platform("touch") + [SHIFT T_Y_02] > U+0059 U+0328
+
+c Inputting Ą̊ (U+00C5 U+0328 or U+0104 U+030A) and ą̊ (U+00E5 U+0328 or U+0105 U+030A)
+if(&platform != "touch") + [RALT K_LBRKT] > U+00E5 U+0328
+if(&platform != "touch") + [SHIFT RALT K_LBRKT] > U+00C5 U+0328
+platform("macosx") + [LALT K_LBRKT] > U+00E5 U+0328
+platform("macosx") + [SHIFT LALT K_LBRKT] > U+00C5 U+0328
+platform("touch") + [T_ARING_02] > U+00E5 U+0328
+platform("touch") + [SHIFT T_ARING_02] > U+00C5 U+0328
+
+c Inputting Ą̈ (U+0104 U+0308)  and ą̈ (U+0105 U+0308)
+if(&platform != "touch") + [RALT K_QUOTE] > U+0105 U+0308
+if(&platform != "touch") + [SHIFT RALT K_QUOTE] > U+0104 U+0308
+platform("macosx") + [LALT K_QUOTE] > U+0105 U+0308
+platform("macosx") + [SHIFT LALT K_QUOTE] > U+0104 U+0308
+platform("touch") + [T_ADIAERESIS_02] > U+0105 U+0308
+platform("touch") + [SHIFT T_ADIAERESIS_02] > U+0104 U+0308
+
+
+c === Digits and punctuation  ===
+
++ any(spaceKey) > $space
++ any(digitKey) > index(digitChar,1)
+
++ any(punctuationKeys) > index(punctuationChars, 1)
+if(&platform != "touch") + any(punctuationAltKeys) > index(punctuationAltChars, 2)
+platform("macosx") + any(punctuationAltKeysOSX) > index(punctuationAltChars, 2)
+platform("touch") + any(punctKeysTouch) > index(punctCharsTouch, 2)
+
+c === DEADKEYS ===
+
++ [K_EQUAL] > dk(00b4)
++ [SHIFT K_EQUAL] > dk(0060)
++ [K_RBRKT] > dk(00a8)
++ [SHIFT K_RBRKT] > dk(005e)
+if(&platform != "touch") + [RALT K_RBRKT] > dk(007e)
+platform("macosx") + [LALT K_RBRKT] > dk(007e)
+
+c === LONG PRESS ON TOUCH DEVICES ===
+
+platform("touch")  + any(eKeysTouch) > index(eCharsTouch,2)
+platform("touch")  + any(yKeysTouch) > index(yCharsTouch,2)
+platform("touch")  + any(uKeysTouch) > index(uCharsTouch,2)
+platform("touch")  + any(iKeysTouch) > index(iCharsTouch,2)
+platform("touch")  + any(oKeysTouch) > index(oCharsTouch,2)
+platform("touch")  + any(aKeysTouch) > index(aCharsTouch,2)
+platform("touch")  + any(nKeysTouch) > index(nCharsTouch,2)
+
+match > use(deadkeys)
+
+group(deadkeys)
+
+dk(00a8) any(dkf00a8) > index(dkt00a8, 2)
+dk(005e) any(dkf005e) > index(dkt005e, 2)
+dk(007e) any(dkf007e) > index(dkt007e, 2)
+dk(00b4) any(dkf00b4) > index(dkt00b4, 2)
+dk(0060) any(dkf0060) > index(dkt0060, 2)
+
+dk(00a8) U+0059 > U+0059 U+0308
+
+
+c EOF

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<KeymanDeveloperProjectUser>
+  <templatepath>C:\Program Files (x86)\Tavultesoft\Keyman Developer 9.0\xml\project\</templatepath>
+  <stringspath>C:\Program Files (x86)\Tavultesoft\Keyman Developer 9.0\xml\project\</stringspath>
+  <state>&lt;state&gt;&lt;tab&gt;2&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <Modules/>
+  <FileStates>
+    <FileState>
+      <ID>id_1e25ea66bdf9776a0513042bf07344de</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.kmn</FullPath>
+      <IDEState>
+        <LayoutDisplay102Key>0</LayoutDisplay102Key>
+        <DebugDefaultFont>1</DebugDefaultFont>
+        <DebugFont>Courier New|12|   |0</DebugFont>
+        <CodeFont>Courier New|12|   |0</CodeFont>
+        <CharFont>Courier New|12|   |0</CharFont>
+      </IDEState>
+      <Debug>False</Debug>
+    </FileState>
+    <FileState>
+      <ID>id_78a6e3e40e74c74d235958958705babc</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.kps</FullPath>
+      <IDEState>
+        <CodeFont>Courier New|12|   |0</CodeFont>
+        <CharFont>Courier New|12|   |0</CharFont>
+      </IDEState>
+    </FileState>
+    <FileState>
+      <ID>id_4120edd2e2cdcbfe3212d3b089d999cf</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.ico</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_e18981efd1f6999adcc82d6537c0fef2</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\..\build\gl_elfdalian.kvk</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_da30a3fb885083baa19938ee245cbd4a</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\..\build\gl_elfdalian.kmx</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_ec22bd52a8d591c1ef799338429eb98c</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\..\build\gl_elfdalian.js</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_0f013ba2f4aaf03f14176b6d71402f6f</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\readme.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_b4e4d4543038a85c7b7e70c858e08eb7</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\readme-en.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_79ee653d3b43a3de4d28f8b7d7264e9f</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\welcome\gl_elfdalianU_.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_cbaf20b9b82bece8fa5b64535004773d</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\welcome\gl_elfdalianU_RA.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_56b30e88b5f5b9afd93c2dd0e2ae56a9</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\welcome\gl_elfdalianU_S.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_7f93d7784aa95c087c0e2a370e9e9b3b</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\welcome\gl_elfdalianU_SRA.png</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_d3a846827e625c1a1c0c8d980f8c2967</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\welcome\welcome.htm</FullPath>
+    </FileState>
+    <FileState>
+      <ID>id_16f29f9493d3cd6403996ac3289fe5e6</ID>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\welcome\welcome-en.htm</FullPath>
+    </FileState>
+  </FileStates>
+  <MRU>
+    <File>
+      <ID>id_MRU0</ID>
+      <Filename>gl_elfdalian.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>F:\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.kps</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU1</ID>
+      <Filename>gl_elfdalian.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>F:\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU2</ID>
+      <Filename>gl_elfdalian.kvk</Filename>
+      <FileType>.kvk</FileType>
+      <FullPath>F:\globalbility_project_km9\km9\gl_elfdalian\source\gl_elfdalian.kvk</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>gl_elfdalian.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
+      <Filename>gl_elfdalian.kps</Filename>
+      <FileType>.kps</FileType>
+      <FullPath>F:\globalbility_project\release\gl\gl_elfdalian\gl_elfdalian.kps</FullPath>
+    </File>
+  </MRU>
+</KeymanDeveloperProjectUser>
