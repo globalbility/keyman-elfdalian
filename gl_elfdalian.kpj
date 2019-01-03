@@ -10,7 +10,7 @@
       <ID>id_1e25ea66bdf9776a0513042bf07344de</ID>
       <Filename>gl_elfdalian.kmn</Filename>
       <Filepath>source\gl_elfdalian.kmn</Filepath>
-      <FileVersion>1.0</FileVersion>
+      <FileVersion>1.1</FileVersion>
       <FileType>.kmn</FileType>
       <Details>
         <Name>Elfdalian</Name>
@@ -21,12 +21,12 @@
       <ID>id_78a6e3e40e74c74d235958958705babc</ID>
       <Filename>gl_elfdalian.kps</Filename>
       <Filepath>source\gl_elfdalian.kps</Filepath>
-      <FileVersion>1.0</FileVersion>
+      <FileVersion>1.1</FileVersion>
       <FileType>.kps</FileType>
       <Details>
         <Name>Elfdalian</Name>
         <Copyright>© 2018 Globability</Copyright>
-        <Version>1.0</Version>
+        <Version>1.1</Version>
       </Details>
     </File>
     <File>

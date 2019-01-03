@@ -2,7 +2,7 @@
 <KeymanDeveloperProjectUser>
   <templatepath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</templatepath>
   <stringspath>file:///C:/Program%20Files%20(x86)/Keyman/Keyman%20Developer%2010.0/xml/project/</stringspath>
-  <state>&lt;state&gt;&lt;tab&gt;2&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
+  <state>&lt;state&gt;&lt;tab&gt;1&lt;/tab&gt;&lt;showhelp&gt;1&lt;/showhelp&gt;&lt;/state&gt;</state>
   <FileStates>
     <FileState>
       <ID>id_1e25ea66bdf9776a0513042bf07344de</ID>
@@ -88,30 +88,42 @@
     </File>
     <File>
       <ID>id_MRU2</ID>
+      <Filename>western-cham-deadkey-test.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>G:\western-cham-deadkey-test.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU3</ID>
+      <Filename>Untitled.kmn</Filename>
+      <FileType>.kmn</FileType>
+      <FullPath>F:\globalbility\keyman-elfdalian\Untitled.kmn</FullPath>
+    </File>
+    <File>
+      <ID>id_MRU4</ID>
       <Filename>gl_elfdalian.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>F:\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.kps</FullPath>
     </File>
     <File>
-      <ID>id_MRU3</ID>
+      <ID>id_MRU5</ID>
       <Filename>gl_elfdalian.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>F:\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU4</ID>
+      <ID>id_MRU6</ID>
       <Filename>gl_elfdalian.kvk</Filename>
       <FileType>.kvk</FileType>
       <FullPath>F:\globalbility_project_km9\km9\gl_elfdalian\source\gl_elfdalian.kvk</FullPath>
     </File>
     <File>
-      <ID>id_MRU5</ID>
+      <ID>id_MRU7</ID>
       <Filename>gl_elfdalian.kmn</Filename>
       <FileType>.kmn</FileType>
       <FullPath>E:\el-clients\globalbility_project\release\gl\gl_elfdalian\source\gl_elfdalian.kmn</FullPath>
     </File>
     <File>
-      <ID>id_MRU6</ID>
+      <ID>id_MRU8</ID>
       <Filename>gl_elfdalian.kps</Filename>
       <FileType>.kps</FileType>
       <FullPath>F:\globalbility_project\release\gl\gl_elfdalian\gl_elfdalian.kps</FullPath>

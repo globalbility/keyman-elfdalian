@@ -15,7 +15,7 @@ store(&NAME) 'Elfdalian'
 store(&COPYRIGHT) '© 2018 Globability'
 store(&VISUALKEYBOARD) 'gl_elfdalian.kvks'
 store(&TARGETS) 'any'
-store(&KEYBOARDVERSION) '1.0'
+store(&KEYBOARDVERSION) '1.1'
 store(&BITMAP) 'gl_elfdalian.ico'
 store(&LAYOUTFILE) 'gl_elfdalian.keyman-touch-layout'
 
