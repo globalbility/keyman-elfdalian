@@ -189,6 +189,15 @@ store(punctKeysTouch) [T_COMMA] [T_PERIOD] [SHIFT T_COMMA] [SHIFT T_PERIOD] [T_Q
 
 group(main) using keys
 
+c === BACKSPACE RULES ===
+U+0079 U+0328 + [K_BKSP] > nul
+U+0059 U+0328 + [K_BKSP] > nul
+U+00E5 U+0328 + [K_BKSP] > nul
+U+00C5 U+0328 + [K_BKSP] > nul
+U+0105 U+0308 + [K_BKSP] > nul
+U+0104 U+0308 + [K_BKSP] > nul
+U+0059 U+0308 + [K_BKSP] > nul
+
 c === ALPHABETIC ===
 
 + any(alphaKey) > index(alphaChar,1)
